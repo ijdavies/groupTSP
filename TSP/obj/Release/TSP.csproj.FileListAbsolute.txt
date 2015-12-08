@@ -1,0 +1,4 @@
+C:\Users\Richard\Desktop\312 projects\TSPBranchAndBound\TSPBranchAndBound\for-distribution\TSP\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Richard\Desktop\312 projects\TSPBranchAndBound\TSPBranchAndBound\for-distribution\TSP\obj\Release\TSP.Form1.resources
+C:\Users\Richard\Desktop\312 projects\TSPBranchAndBound\TSPBranchAndBound\for-distribution\TSP\obj\Release\TSP.Properties.Resources.resources
+C:\Users\Richard\Desktop\312 projects\TSPBranchAndBound\TSPBranchAndBound\for-distribution\TSP\obj\Release\TSP.csproj.GenerateResource.Cache

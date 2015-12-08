@@ -1,0 +1,33 @@
+C:\Documents and Settings\krgerman.CS_SAMBA\Desktop\for-distribution\TSP\bin\Debug\TSP.exe
+C:\Documents and Settings\krgerman.CS_SAMBA\Desktop\for-distribution\TSP\bin\Debug\TSP.pdb
+C:\Documents and Settings\krgerman.CS_SAMBA\Desktop\for-distribution\TSP\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\krgerman.CS_SAMBA\Desktop\for-distribution\TSP\obj\Debug\TSP.Form1.resources
+C:\Documents and Settings\krgerman.CS_SAMBA\Desktop\for-distribution\TSP\obj\Debug\TSP.Properties.Resources.resources
+C:\Documents and Settings\krgerman.CS_SAMBA\Desktop\for-distribution\TSP\obj\Debug\TSP.csproj.GenerateResource.Cache
+C:\Documents and Settings\krgerman.CS_SAMBA\Desktop\for-distribution\TSP\obj\Debug\TSP.exe
+C:\Documents and Settings\krgerman.CS_SAMBA\Desktop\for-distribution\TSP\obj\Debug\TSP.pdb
+C:\Users\Richard\Desktop\TSPBranchAndBound\for-distribution\TSP\obj\Debug\TSP.exe
+C:\Users\Richard\Desktop\TSPBranchAndBound\for-distribution\TSP\obj\Debug\TSP.pdb
+C:\Users\Richard\Desktop\TSPBranchAndBound\for-distribution\TSP\bin\Debug\TSP.exe
+C:\Users\Richard\Desktop\TSPBranchAndBound\for-distribution\TSP\bin\Debug\TSP.pdb
+C:\Users\Richard\Desktop\TSPBranchAndBound\for-distribution\TSP\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Richard\Desktop\TSPBranchAndBound\for-distribution\TSP\obj\Debug\TSP.Form1.resources
+C:\Users\Richard\Desktop\TSPBranchAndBound\for-distribution\TSP\obj\Debug\TSP.Properties.Resources.resources
+C:\Users\Richard\Desktop\TSPBranchAndBound\for-distribution\TSP\obj\Debug\TSP.csproj.GenerateResource.Cache
+C:\Users\Richard\Desktop\312 projects\TSPBranchAndBound\TSPBranchAndBound\for-distribution\TSP\obj\Debug\TSP.exe
+C:\Users\Richard\Desktop\312 projects\TSPBranchAndBound\TSPBranchAndBound\for-distribution\TSP\obj\Debug\TSP.pdb
+C:\Users\Richard\Desktop\312 projects\TSPBranchAndBound\TSPBranchAndBound\for-distribution\TSP\bin\Debug\TSP.exe
+C:\Users\Richard\Desktop\312 projects\TSPBranchAndBound\TSPBranchAndBound\for-distribution\TSP\bin\Debug\TSP.pdb
+C:\Users\Richard\Desktop\312 projects\TSPBranchAndBound\TSPBranchAndBound\for-distribution\TSP\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Richard\Desktop\312 projects\TSPBranchAndBound\TSPBranchAndBound\for-distribution\TSP\obj\Debug\TSP.Properties.Resources.resources
+C:\Users\Richard\Desktop\312 projects\TSPBranchAndBound\TSPBranchAndBound\for-distribution\TSP\obj\Debug\TSP.csproj.GenerateResource.Cache
+C:\Users\Richard\Desktop\312 projects\TSPBranchAndBound\TSPBranchAndBound\for-distribution\TSP\obj\Debug\TSP.mainform.resources
+C:\Users\Ian\Downloads\TSPBranchAndBound\TSP\obj\Debug\TSP.exe
+C:\Users\Ian\Downloads\TSPBranchAndBound\TSP\obj\Debug\TSP.pdb
+C:\Users\Ian\Downloads\TSPBranchAndBound\TSP\obj\Debug\TSP.csprojResolveAssemblyReference.cache
+C:\Users\Ian\Downloads\TSPBranchAndBound\TSP\obj\Debug\TSP.mainform.resources
+C:\Users\Ian\Downloads\TSPBranchAndBound\TSP\obj\Debug\TSP.Properties.Resources.resources
+C:\Users\Ian\Downloads\TSPBranchAndBound\TSP\obj\Debug\TSP.csproj.GenerateResource.Cache
+C:\Users\Ian\Downloads\TSPBranchAndBound\TSP\bin\Debug\TSP.exe.config
+C:\Users\Ian\Downloads\TSPBranchAndBound\TSP\bin\Debug\TSP.exe
+C:\Users\Ian\Downloads\TSPBranchAndBound\TSP\bin\Debug\TSP.pdb
