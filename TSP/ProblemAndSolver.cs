@@ -888,6 +888,36 @@ namespace TSP
             }
         }
 
+        public void solveRandomPath()
+        {
+            Route = new ArrayList();
+            //Route.Capacity = Cities.Length;
+            Random rand = new Random();
+            // this is the trivial solution. 
+            for (int x = 0; x < Cities.Length; x++)
+            {
+                Route.Add(Cities[x]);
+            }
+
+            //fisher-yates shuffle
+            for (int i = Route.Count - 1; i > 0; i--)
+            {
+                int index = rand.Next(i + 1);
+                // Simple swap
+                City c = (City)Route[index];
+                Route[index] = Route[i];
+                Route[i] = c;
+            }
+
+            // call this the best solution so far.  bssf is the route that will be drawn by the Draw method. 
+            bssf = new TSPSolution(Route);
+            // update the cost of the tour. 
+            Program.MainForm.tbCostOfTour.Text = " " + bssf.costOfRoute();
+            // do a refresh. 
+            Program.MainForm.Invalidate();
+
+        }
+
         #endregion
     }
 
