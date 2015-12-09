@@ -833,6 +833,61 @@ namespace TSP
 
         }
 
+        public void solveProblemGreedy()
+        {
+
+            Route = new ArrayList();
+            Route.Add(Cities[0]);
+            while (Route.Count < Cities.Length)
+            {  //TODO do hard mode
+                Route.Add(getClosestTo((City)Route[Route.Count - 1], Route));
+            }
+            // call this the best solution so far.  bssf is the route that will be drawn by the Draw method. 
+            bssf = new TSPSolution(Route);
+            // update the cost of the tour. 
+            Program.MainForm.tbCostOfTour.Text = " " + bssf.costOfRoute();
+            // do a refresh. 
+            Program.MainForm.Invalidate();
+        }
+
+        public City getClosestTo(City c, ArrayList routeSoFar)
+        {
+            City minCity = null;
+            double minDist = Double.MaxValue;
+            for (int x = 0; x < Cities.Length; x++)
+            {
+                if (c.costToGetTo(Cities[x]) < minDist && Cities[x] != c && !routeSoFar.Contains(Cities[x]))
+                {
+                    minCity = Cities[x];
+                    minDist = c.costToGetTo(Cities[x]);
+                }
+            }
+            if (minDist == Double.PositiveInfinity)
+            {
+                throw new badPathException();
+            }
+
+            return minCity;
+
+        }
+
+        private class badPathException : Exception
+        {
+            public badPathException()
+            {
+            }
+
+            public badPathException(string message)
+                : base(message)
+            {
+            }
+
+            public badPathException(string message, Exception inner)
+                : base(message, inner)
+            {
+            }
+        }
+
         #endregion
     }
 

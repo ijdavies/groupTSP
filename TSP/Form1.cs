@@ -156,13 +156,14 @@ namespace TSP
 
         private void greedyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            // TODO: Add a hook into your own implementation here.
-            throw new NotImplementedException();
+            reset();
+            CityData.solveProblemGreedy();
         }
 
         private void bBToolStripMenuItem_Click(object sender, EventArgs e)
         {
             // TODO: Add a hook into your own implementation here.
+            reset();
             CityData.branchAndBound();
             //throw new NotImplementedException();
         }
@@ -170,12 +171,14 @@ namespace TSP
         private void randomToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             // TODO: Add a hook into your own implementation here.
+            reset();
             throw new NotImplementedException();
         }
 
         private void yourTSPToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             // TODO: Add a hook into your own implementation here.
+            reset();
             CityData.TwoOpt();
         }
 
