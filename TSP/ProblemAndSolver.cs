@@ -714,6 +714,34 @@ namespace TSP
             Console.WriteLine(ToStringSolution());
         }
 
+        public void greedyTwoOpt()
+        {
+            Stopwatch timer = new Stopwatch();
+            timer.Start();
+
+            Route = new ArrayList();
+            Route.Add(Cities[0]);
+            while (Route.Count < Cities.Length)
+            {  //TODO do hard mode
+                Route.Add(getClosestTo((City)Route[Route.Count - 1], Route));
+            }
+            // call this the best solution so far.  bssf is the route that will be drawn by the Draw method. 
+            bssf = new TSPSolution(Route);
+            bssf = apply2Opt(bssf);
+            timer.Stop();
+            //write out solution
+            Program.MainForm.tbCostOfTour.Text = " " + bssf.costOfRoute();
+            TimeSpan totalTime = timer.Elapsed;
+            string elapsedTime = string.Format("{0:00}:{1:00}", totalTime.Minutes, totalTime.Seconds);
+            Program.MainForm.tbElapsedTime.Text = elapsedTime;
+            Program.MainForm.Invalidate();
+
+            // update the cost of the tour. 
+            Program.MainForm.tbCostOfTour.Text = " " + bssf.costOfRoute();
+            // do a refresh. 
+            Program.MainForm.Invalidate();
+        }
+
         public double findMinimumCost(int i, int j, int k)
         {
             double cost = Cities[k].costToGetTo(Cities[i]) +
@@ -743,20 +771,6 @@ namespace TSP
         {
             if (myRoute.Route.Count < 4)
                 return myRoute;
-
-            //double[,] distanceMatrix = new double[myRoute.Route.Count, myRoute.Route.Count];
-            ////initialize cost matrix O(n^2)
-            //for (int i = 0; i < myRoute.Route.Count; i++)
-            //{
-            //    distanceMatrix[i, i] = double.PositiveInfinity;
-            //    for (int j = i + 1; j < myRoute.Route.Count; j++)
-            //    {
-            //        double cost = ((City)myRoute.Route[i]).costToGetTo((City)myRoute.Route[j]);
-            //        distanceMatrix[i, j] = cost;
-            //        distanceMatrix[j, i] = cost;
-            //        //totalCosts += cost;
-            //    }
-            //}
 
             double minChange = -1;
             while (minChange < 0)

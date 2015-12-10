@@ -180,7 +180,7 @@ namespace TSP
         {
             // 2-opt algorithm
             reset();
-            CityData.TwoOpt();
+            CityData.greedyTwoOpt();
         }
 
         private void AlgorithmMenu2_DropDownItemClicked(object sender, ToolStripItemClickedEventArgs e)
